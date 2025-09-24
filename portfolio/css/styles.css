@@ -34,6 +34,41 @@
     --border: #2a2a2a; */
 }
 
+[data-theme="dark"] .skills,
+[data-theme="dark"] .projects,
+[data-theme="dark"] .about,
+[data-theme="dark"] .contact,
+[data-theme="dark"] .skill-category,
+[data-theme="dark"] .project-card,
+[data-theme="dark"] .tech-card,
+[data-theme="dark"] .contact-form {
+    background: #181818 !important;
+    color: #fff !important;
+}
+
+[data-theme="dark"] .section-title,
+[data-theme="dark"] .stat-label,
+[data-theme="dark"] .project-content p,
+[data-theme="dark"] .skill-tag,
+[data-theme="dark"] .project-tech span {
+    color: #b3b3b3 !important;
+}
+
+[data-theme="dark"] .btn,
+[data-theme="dark"] .btn-outline {
+    color: #fff !important;
+    border-color: #667eea !important;
+}
+
+[data-theme="dark"] .btn-primary {
+    background: linear-gradient(135deg, #667eea, #5a67d8) !important;
+}
+
+[data-theme="dark"] .footer {
+    background: #111 !important;
+    color: #fff !important;
+}
+
 /* ========== Base Styles ========== */
 * {
     margin: 0;
