@@ -540,6 +540,41 @@ section {
 }
 
 /* ========== About Section ========== */
+.about-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  /* Creates 2 columns */
+    gap: 1rem;  /* Adds spacing between cards */
+    padding: 1rem;
+}
+
+.tech-card {
+    background: var(--card-bg);
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tech-card i {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+}
+
+.tech-card span {
+    display: block;
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 768px) {
+    .about-image {
+        grid-template-columns: 1fr;  /* Stack cards vertically on mobile */
+    }
+}
+
 .about-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
