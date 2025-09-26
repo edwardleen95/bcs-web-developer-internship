@@ -645,7 +645,7 @@ section {
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     margin-bottom: 3rem;
 }
@@ -655,7 +655,12 @@ section {
     padding: 2rem;
     border-radius: 10px;
     box-shadow: var(--shadow-md);
+    /* Add these properties */
+    width: 100%;
+    height: 100%;
 }
+
+
 
 .skill-category h3 {
     display: flex;
