@@ -810,6 +810,14 @@ section {
     margin-bottom: 1rem;
 }
 
+[data-theme="dark"] .project-content h3 {
+    color: #ffffff !important; /* or any light color of your choice */
+}
+
+[data-theme="dark"] .project-content p {
+    color: #b3b3b3 !important; /* lighter grey for better readability */
+}
+
 .project-tech {
     display: flex;
     gap: 0.5rem;
